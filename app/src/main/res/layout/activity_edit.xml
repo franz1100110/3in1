@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Edit">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:background="#dc2700"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+    <EditText
+        android:id="@+id/titleEt"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="Nama Makanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/amountEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:hint="Jumlah"
+        android:inputType="text"
+        android:padding="10dp" />
+    <EditText
+        android:id="@+id/descEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:hint="Takaran"
+        android:inputType="text"
+        android:padding="10dp"
+        android:gravity="start"/>
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="Save"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/backBtn"
+        android:text="Cancel"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

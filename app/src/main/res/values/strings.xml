@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">3in1</string>
+
+    <string-array name="menu">
+        <item>Pecel Lele</item>
+        <item>Nasi goreng mercon</item>
+        <item>Ayam geprek keju</item>
+        <item>Kari ayam</item>
+        <item>Tahu bulat</item>
+        <item>Salad buah</item>
+    </string-array>
+    <string-array name="desc">
+        <item>15.000</item>
+        <item>14.500</item>
+        <item>20.000</item>
+        <item>17.500</item>
+        <item>500</item>
+        <item>12.000</item>
+    </string-array>
+    <string-array name="jelas">
+        <item>Lele yang dikasih bumbu pecel</item>
+        <item>Nasi goreng yang sangat  pedas .... ( mungkin ada mercon nya (?) )</item>
+        <item>Ayam geprek keju adalah ayam yang di geprek dan ditambahkan keju diatasnya</item>
+        <item>Ayam yang dimasak dengan bumbu kari</item>
+        <item>Tahu yang digoreng dalam bentuk yang bulat</item>
+        <item>Salad yang berisi buah</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>
